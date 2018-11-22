@@ -2,14 +2,14 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const request = require('request');
-const devs = ['431150885549113344','244423000802328576'];
+const devs = ['515076187043790858','487272992460505130'];
 const child_process = require("child_process");
 const adminprefix = "!";
 const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
-const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
+const yt_api_key = "NTE1MDc2ODk3Nzg5NzA2MjQw.DtgA9g.Hh6ZE15gsM5_wIb8mDWoX1anKKA";
 const prefix = '#';
 
 client.on('ready', () => {
