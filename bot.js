@@ -10,11 +10,11 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "NTE1MDc2ODk3Nzg5NzA2MjQw.DtgA9g.Hh6ZE15gsM5_wIb8mDWoX1anKKA";
-const prefix = '#';
+const prefix = '+';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`#play`,"https://www.twitch.tv/dark_legend_1003")
+client.user.setGame(`+play`,"https://www.twitch.tv/pildex")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
