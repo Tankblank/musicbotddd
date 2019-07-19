@@ -10,11 +10,11 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "AIzaSyDSjXGQzPfrBE4UdmJUyL8cTlpHXtMm7o0";
-const prefix = '+';
+const prefix = '$';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`+play`,"https://www.twitch.tv/pildex")
+client.user.setGame(`$play`,"https://www.twitch.tv/pildex")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
