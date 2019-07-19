@@ -9,7 +9,7 @@ const fs = require('fs');
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
-const yt_api_key = "NTE1MDc2ODk3Nzg5NzA2MjQw.DtgA9g.Hh6ZE15gsM5_wIb8mDWoX1anKKA";
+const yt_api_key = "AIzaSyDSjXGQzPfrBE4UdmJUyL8cTlpHXtMm7o0";
 const prefix = '+';
 
 client.on('ready', () => {
